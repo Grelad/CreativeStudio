@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', ))
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['mighty-bastion-63296.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
@@ -132,11 +133,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # The URL to use when referring to static files (where they will be served from)
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = '/static/img'
-
-MEDIA_URL = '/img/'
+# MEDIA_ROOT = '/static/svg'
+#
+# MEDIA_URL = '/svg/'
 
 # Heroku: Update database configuration from $DATABASE_URL.
-import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)

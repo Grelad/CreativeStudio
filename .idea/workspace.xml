@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8ffd21d-0d20-41cd-a506-2252e30e2e00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CreativeStudio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreativeStudio/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +32,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CreativeStudio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="381">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
+              <folding>
+                <element signature="e#316#325#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +154,11 @@
               <item name="CreativeStudioRestart" type="b2602c69:ProjectViewProjectNode" />
               <item name="CreativeStudio-47d1a24d9822627b52aa15a522a6a8cdba173068" type="462c0819:PsiDirectoryNode" />
               <item name="CreativeStudio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CreativeStudioRestart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CreativeStudio-47d1a24d9822627b52aa15a522a6a8cdba173068" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,7 +432,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545422213070</updated>
-      <workItem from="1545422215246" duration="7984000" />
+      <workItem from="1545422215246" duration="9573000" />
     </task>
     <task id="LOCAL-00001" summary="Fix errors">
       <created>1545426496377</created>
@@ -434,15 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545426496377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix path for static">
+      <created>1545430252244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545430252244</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7984000" />
+    <option name="totallyTimeSpent" value="9573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.50141644" side_tool="true" weight="0.15369128" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.15369128" />
@@ -474,7 +487,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix errors" />
+    <MESSAGE value="Fix path for static" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix path for static" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contacts/urls.py">
@@ -594,10 +608,20 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-526587716/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="2877" column="8" selection-start-line="2877" selection-start-column="8" selection-end-line="2877" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CreativeStudio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="381">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="e#316#325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
