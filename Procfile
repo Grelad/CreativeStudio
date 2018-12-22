@@ -1,1 +1,1 @@
-web: gunicorn CreativeStudio:app
+web: gunicorn CreativeStudio.wsgi
