@@ -1,1 +1,1 @@
-web: gunicorn CreativeStudio.wsgi --log-file -
+web: gunicorn CreativeStudioRestart.wsgi

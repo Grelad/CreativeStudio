@@ -1,4 +1,4 @@
-{% load static %}
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'static/style.css' %}">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
@@ -25,13 +25,13 @@
                 <a class="nav-link" href="/">Главная</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/schedule/">Расписание</a>
+                <a class="nav-link" href="/schedule">Расписание</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="/about/">О нас<span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="/about">О нас<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contacts/">Контакты</a>
+                <a class="nav-link" href="/contacts">Контакты</a>
             </li>
         </ul>
     </div>
@@ -56,7 +56,7 @@
                 <ul class="address">
                     <span>Адрес</span>
                     <li>
-                        <p><img class="icons-footer" src="{% static "/svg/map.svg" %}"/>
+                        <p><img class="icons-footer" src="{% static "static/svg/map.svg" %}"/>
                             Проспект веры, дом надежды, офис любви</p>
                     </li>
 
@@ -66,10 +66,10 @@
                 <ul class="contact">
                     <span>Контакты</span>
                     <li>
-                        <p><img class="icons-footer" src="{% static "/svg/phone.svg" %}"/>+90 1234 56789</p>
+                        <p><img class="icons-footer" src="{% static "static/svg/phone.svg" %}"/>+90 1234 56789</p>
                     </li>
                     <li>
-                        <p><img class="icons-footer" src="{% static "/svg/mail.svg" %}"/>info@gmail.com</p>
+                        <p><img class="icons-footer" src="{% static "static/svg/mail.svg" %}"/>info@gmail.com</p>
                     </li>
                 </ul>
             </div>
@@ -77,10 +77,10 @@
                 <ul class="social">
                     <span>Соц сети</span>
                     <li>
-                        <a href="#"><img class="icons-footer" src="{% static "/svg/facebook.svg" %}"/>Facebook</a>
+                        <a href="#"><img class="icons-footer" src="{% static "static/svg/facebook.svg" %}"/>Facebook</a>
                     </li>
                     <li>
-                        <a href="#"><img class="icons-footer" src="{% static "/svg/instagram.svg" %}"/>Instagram</a>
+                        <a href="#"><img class="icons-footer" src="{% static "static/svg/instagram.svg" %}"/>Instagram</a>
                     </li>
                 </ul>
             </div>
