@@ -1,1 +1,1 @@
-web: gunicorn CreativeStudioRestart.wsgi
+web: gunicorn CreativeStudio.wsgi
