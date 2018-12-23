@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "709f941965c390d57fb60ac7f5ea9668aff7a791a9949f5af4d7d0773eeb3dd4"
+            "sha256": "901a30626938aa0a0334e05a6bc7003d43fa216a890f20e209b7cf3a744a80b9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "codegen": {
+            "hashes": [
+                "sha256:5f06b3768471e66c0913f38efde74ee4ca14444ebada27f38685a3e3d885294b",
+                "sha256:d14caccc4175903d79bc5ed2890d140163281b1cdff79f3657e963369e79a6ee"
+            ],
+            "version": "==1.0"
+        },
         "dj-database-url": {
             "hashes": [
                 "sha256:4aeaeb1f573c74835b0686a2b46b85990571159ffc21aa57ecd4d1e1cb334163",
@@ -46,6 +53,13 @@
             ],
             "index": "pypi",
             "version": "==19.9.0"
+        },
+        "patterns": {
+            "hashes": [
+                "sha256:af8144d8993253661fd3d67d52d84d2f4c5ab77c873b17e7c79dd096e04a3049"
+            ],
+            "index": "pypi",
+            "version": "==0.3"
         },
         "psycopg2": {
             "hashes": [

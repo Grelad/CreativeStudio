@@ -22,7 +22,7 @@ admin.autodiscover()
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     path(r'', include('landing.urls')),
-    url(r'^schedule/', include('schedule.urls')),
-    url(r'^about/', include('about.urls')),
-    url(r'^contacts/', include('contacts.urls'))
+    url(r'^schedule/', include('landing.urls')),
+    url(r'^about/', include('landing.urls')),
+    url(r'^contacts/', include('landing.urls'))
 ]
