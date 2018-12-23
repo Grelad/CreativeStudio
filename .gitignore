@@ -16,3 +16,6 @@ ENV/
 
 #Database
 *.sqlite3
+
+*.pyc
+local_settings.py
