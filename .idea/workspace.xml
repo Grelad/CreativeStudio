@@ -4,9 +4,6 @@
     <list default="true" id="a8ffd21d-0d20-41cd-a506-2252e30e2e00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CreativeStudio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreativeStudio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/staticfiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CreativeStudio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
+            <state relative-caret-position="170">
               <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding>
                 <element signature="e#316#325#0" expanded="true" />
@@ -185,9 +182,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="365" />
-    <option name="y" value="55" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="508" />
+    <option name="y" value="30" />
     <option name="width" value="1220" />
     <option name="height" value="1040" />
   </component>
@@ -219,21 +216,6 @@
               <item name="CreativeStudioRestart" type="b2602c69:ProjectViewProjectNode" />
               <item name="CreativeStudio-47d1a24d9822627b52aa15a522a6a8cdba173068" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CreativeStudioRestart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="CreativeStudioRestart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Pipenv (CreativeStudio-47d1a24d9822627b52aa15a522a6a8cdba173068) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="CreativeStudioRestart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Pipenv (CreativeStudio-47d1a24d9822627b52aa15a522a6a8cdba173068) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,7 +306,7 @@
       <workItem from="1545573331682" duration="3594000" />
       <workItem from="1545578332034" duration="651000" />
       <workItem from="1545733581165" duration="1327000" />
-      <workItem from="1545735678683" duration="2053000" />
+      <workItem from="1545735678683" duration="6010000" />
     </task>
     <task id="LOCAL-00001" summary="Fix errors">
       <created>1545426496377</created>
@@ -417,22 +399,36 @@
       <option name="project" value="LOCAL" />
       <updated>1545570934404</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add postgres db">
+      <created>1545738332590</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1545738332590</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Change Debug mode">
+      <created>1545741921082</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545741921082</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40507000" />
+    <option name="totallyTimeSpent" value="44464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="407" y="24" width="976" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.16644295" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.27074236" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.15369128" />
       <window_info id="Favorites" order="2" sideWeight="0.50141644" side_tool="true" weight="0.15369128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4348442" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4348442" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,7 +437,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info active="true" anchor="bottom" id="REST Client" order="10" weight="0.43342775" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24787535" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -482,6 +478,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Fix errors" />
     <MESSAGE value="Fix path for static" />
     <MESSAGE value="Fix procfile" />
@@ -493,7 +490,9 @@
     <MESSAGE value="Change pipfile" />
     <MESSAGE value="Change path to index page" />
     <MESSAGE value="Change settings file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change settings file" />
+    <MESSAGE value="Add postgres db" />
+    <MESSAGE value="Change Debug mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Debug mode" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contacts/urls.py" />
@@ -718,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CreativeStudio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
+        <state relative-caret-position="170">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
             <element signature="e#316#325#0" expanded="true" />
