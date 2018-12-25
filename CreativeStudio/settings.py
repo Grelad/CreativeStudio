@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.redirects',
     'landing',
+
 ]
 
 SITE_ID = 1
@@ -85,11 +86,11 @@ WSGI_APPLICATION = 'CreativeStudio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Subscriber',
-        'USER': 'admin',
-        'PASSWORD': '',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'Evidence666',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 # Password validation
