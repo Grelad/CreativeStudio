@@ -1,9 +1,9 @@
-from django.shortcuts import render
-from .forms import SubscriberForm
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse, HttpResponseRedirect
+from .forms import *
 
 
 def landing(request):
-    # context = {"index_page": "active"}
     form = SubscriberForm(request.POST or None)
     if request.method == "POST" and form.is_valid():
         new_form = form.save()
@@ -11,15 +11,30 @@ def landing(request):
 
 
 def contacts(request):
-    context = {"contacts_page": "active"}
-    return render(request, '../templates/contacts.html', context)
+    title = Contact.objects.all()
+    content = Contact.objects.all()
+    data = {
+        "title": title,
+        "content": content,
+    }
+    return render(request, '../templates/contacts.html', data)
 
 
 def about(request):
-    context = {"about_page": "active"}
-    return render(request, '../templates/about.html', context)
+    title = About.objects.all()
+    content = About.objects.all()
+    data = {
+        "title": title,
+        "content": content,
+    }
+    return render(request, '../templates/about.html', data)
 
 
 def schedule(request):
-    context = {"schedule_page": "active"}
-    return render(request, '../templates/schedule.html', context)
+    title = Schedule.objects.all()
+    content = Schedule.objects.all()
+    data = {
+        "title": title,
+        "content": content,
+    }
+    return render(request, '../templates/schedule.html', data)

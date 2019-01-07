@@ -11,15 +11,15 @@
         <div class="container-form">
             <form action="" method="post" class="form-group">{% csrf_token %}
                 <div class="email">
-                    <input type="email" name="{{ form.email.name }}" class="" placeholder="Введите Ваш email">
+                    <input type="email" name="{{ form.email.name }}" placeholder="Введите Ваш email">
                 </div>
                 </br>
                 <div class="name">
-                    <input type="name" name="{{ form.name.name }}" class="" placeholder="Введите Ваше имя">
+                    <input type="name" name="{{ form.name.name }}" placeholder="Введите Ваше имя">
                 </div>
                 </br>
                 <div class="number">
-                    <input type="number" name="{{ form.phone.name }}" class=""
+                    <input name="{{ form.phone.name }}"
                            placeholder="Введите Ваш телефон">
                 </div>
                 </br>
