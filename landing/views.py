@@ -3,6 +3,7 @@ from .forms import SubscriberForm
 
 
 def landing(request):
+    # context = {"index_page": "active"}
     form = SubscriberForm(request.POST or None)
     if request.method == "POST" and form.is_valid():
         new_form = form.save()
@@ -10,12 +11,15 @@ def landing(request):
 
 
 def contacts(request):
-    return render(request, '../templates/contacts.html', locals())
+    context = {"contacts_page": "active"}
+    return render(request, '../templates/contacts.html', context)
 
 
 def about(request):
-    return render(request, '../templates/about.html', locals())
+    context = {"about_page": "active"}
+    return render(request, '../templates/about.html', context)
 
 
 def schedule(request):
-    return render(request, '../templates/schedule.html', locals())
+    context = {"schedule_page": "active"}
+    return render(request, '../templates/schedule.html', context)

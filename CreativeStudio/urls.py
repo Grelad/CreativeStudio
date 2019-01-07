@@ -20,9 +20,6 @@ from django.urls import path
 admin.autodiscover()
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    path(r'', include('landing.urls')),
-    url(r'^schedule/', include('landing.urls')),
-    url(r'^about/', include('landing.urls')),
-    url(r'^contacts/', include('landing.urls'))
+    path('admin/', admin.site.urls),
+    path('', include('landing.urls')),
 ]

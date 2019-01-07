@@ -15,12 +15,11 @@ Including another URLconf
 """
 from landing import views
 from django.conf.urls import url
-
-# from django.urls import path
+from django.urls import path
 
 urlpatterns = [
-    url(r'^$', views.landing, name='home'),
-    url(r'^schedule/', views.schedule, name='schedule'),
-    url(r'^about/', views.about, name='about'),
-    url(r'^contacts/', views.contacts, name='contacts')
+    path('', views.landing, name='index'),
+    path('schedule/', views.schedule, name='schedule'),
+    path('about/', views.about, name='about'),
+    path('contacts/', views.contacts, name='contacts')
 ]

@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="{% url 'index' %}">Logo of the company</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a {% if request.resolver_match.url_name == 'index' %}class="nav-link active"
+                {% else %}class="nav-link"{% endif %} href="{% url 'index' %}">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a {% if request.resolver_match.url_name == 'schedule' %}class="nav-link active"
+                {% else %}class="nav-link"{% endif %} href="{% url 'schedule' %}">Расписание</a>
+            </li>
+            <li class="nav-item">
+                <a {% if request.resolver_match.url_name == 'about' %}class="nav-link active"
+                {% else %}class="nav-link"{% endif %} href="{% url 'about' %}">О нас</a>
+            </li>
+            <li class="nav-item">
+                <a {% if request.resolver_match.url_name == 'contacts' %}class="nav-link active"
+                {% else %}class="nav-link"{% endif %} href="{% url 'contacts' %}">Контакты</a>
+            </li>
+        </ul>
+    </div>
+</nav>
