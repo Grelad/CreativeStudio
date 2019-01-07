@@ -21,4 +21,4 @@ ENV/
 local_settings.py
 
 #git
-../.idea/'.idea'
+.idea
