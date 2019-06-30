@@ -1,0 +1,32 @@
+{% extends 'landing/base.html' %}
+
+{% block main_content %}
+
+    <div class="sidebar-a col-sm-2">
+    </div>
+    <div class="register col-sm-8 text-center">
+        <h1 class="title-1">Наша студия скоро откроется!</h1>
+        <h1 class="title-2">Для того, чтобы зарегистрироваться на день открытых дверей ,
+            заполните форму ниже:</h1>
+        <div class="container-form">
+            <form action="" method="post" class="form-group">{% csrf_token %}
+                <div class="email">
+                    <input type="email" name="{{ form.email.name }}" placeholder="Введите Ваш email">
+                </div>
+                <br/>
+                <div class="name">
+                    <input type="name" name="{{ form.name.name }}" placeholder="Введите Ваше имя">
+                </div>
+                <br/>
+                <div class="number">
+                    <input name="{{ form.number.name }}"
+                           placeholder="Введите Ваш телефон">
+                </div>
+                <br/>
+                <button type="submit" class="btn btn-primary btn-black">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+    <div class="sidebar-b col-sm-2">
+    </div>
+{% endblock %}
